@@ -1,2 +1,28 @@
 # yosemite-tree-dataset
-A benchmark dataset for tree counting from aerial images
+A benchmark dataset for tree counting from aerial images.
+The dataset is available to download through [this link](https://drive.google.com/drive/folders/1NWAqslICPoTS8OvT8zosI0R7cmsl6x9j?usp=sharing).
+
+The study area is a 2262.5m x 4525.1m rectangular area (19200 x 38400 pixels in image).
+We have labeled the position of each individual trees. There are totally 98,949 individual trees labeled.
+
+### The recommended way to use the dataset
+The study area is split into four regions of same size. Region B and D are used to train models to count trees.
+Region A and C are used as the test set.
+
+
+To evaluate the accuracy of your model
+1. Cut Region A and Region C into smaller (eg. 960 x 960) blocks.
+2. Predict the number of trees in each block.
+3. Calculate the Mean Average Error (MAE) and Root Mean Square Error (RMSE).
+
+
+### Copyright of the original image:
+The original image are downloaded via Google Maps.
+Imagery ©2021 Google, Maxar Technologies, USDA Farm Service Agency
+
+
+### Disclaimer:
+No warranty, expressed or implied, is made regarding accuracy, adequacy, completeness, legality, reliability or usefulness of any information.
+
+
+![Tux, the Linux mascot](assets/images/study_area.jpg)

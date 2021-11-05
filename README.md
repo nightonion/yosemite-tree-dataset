@@ -9,7 +9,7 @@ The study area is split into four regions of same size. Region B and D are used 
 Region A and C are used as the test set.
 
 
-To evaluate the accuracy of your model
+To evaluate the accuracy of your model:
 1. Cut Region A and Region C into smaller (eg. 960 x 960) blocks.
 2. Predict the number of trees in each block.
 3. Calculate the Mean Average Error (___MAE___) and Root Mean Square Error (___RMSE___).
@@ -17,6 +17,7 @@ To evaluate the accuracy of your model
 
 ### Copyright of the original images:
 The original images are downloaded via Google Maps.
+
 Imagery ©2021 Google, Maxar Technologies, USDA Farm Service Agency
 
 

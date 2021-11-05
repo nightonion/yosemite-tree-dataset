@@ -1,6 +1,5 @@
-# yosemite-tree-dataset
-A benchmark dataset for tree counting from aerial images.
-The dataset is available to download through [this link](https://drive.google.com/drive/folders/1NWAqslICPoTS8OvT8zosI0R7cmsl6x9j?usp=sharing).
+# Yosemite Tree Dataset
+Yosemite Tree Dataset is a benchmark dataset for tree counting from aerial images. The dataset is available to download through [this link](https://drive.google.com/drive/folders/1NWAqslICPoTS8OvT8zosI0R7cmsl6x9j?usp=sharing).
 
 The study area is a 2262.5m x 4525.1m rectangular area (19200 x 38400 pixels in image).
 We have labeled the position of each individual trees. There are totally 98,949 individual trees labeled.
